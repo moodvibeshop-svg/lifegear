@@ -1,21 +1,14 @@
 import React from "react";
 
-/**
- * ✅ Paste your full ChatGPT Canvas code here (replace this whole file).
- * Your canvas likely starts with imports like:
- *   import { Badge } from "@/components/ui/badge"
- * This project already includes those UI components and the @ alias.
- */
-
 export default function App() {
   return (
-    <div className="min-h-screen bg-black text-white grid place-items-center p-8">
-      <div className="max-w-xl space-y-4 rounded-3xl border border-zinc-800 bg-zinc-950/60 p-6">
-        <div className="text-2xl font-semibold">Lifegear MVP scaffold ✅</div>
-        <p className="text-sm text-zinc-200">
-          Next step: open <code className="text-zinc-100">src/App.tsx</code> and paste your full Canvas code.
-          Then run <code className="text-zinc-100">npm install</code> and <code className="text-zinc-100">npm run dev</code>.
-        </p>
+    <div className="min-h-screen bg-black text-white flex items-center justify-center">
+      <div className="p-10 rounded-2xl border border-zinc-700 bg-zinc-900 text-center space-y-4">
+        <h1 className="text-3xl font-bold">Lifegear</h1>
+        <p className="text-zinc-400">Your AI-powered life operating system.</p>
+        <button className="px-6 py-2 bg-white text-black rounded-lg hover:opacity-80 transition">
+          Get Started
+        </button>
       </div>
     </div>
   );
