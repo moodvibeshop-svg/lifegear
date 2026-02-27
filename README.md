@@ -22,3 +22,4 @@ Vercel → New Project → Import your repo → Deploy
 
 Build command: `npm run build`  
 Output directory: `dist`
+Dev preview deployment test
