@@ -6,15 +6,15 @@ html, body { height: 100%; }
 
 @keyframes twinkle {
   0% {
-    opacity: 0.4;
+    opacity: 0.35;
     transform: scale(1);
   }
   50% {
-    opacity: 1;
-    transform: scale(1.4);
+    opacity: 0.9;
+    transform: scale(1.35);
   }
   100% {
-    opacity: 0.5;
+    opacity: 0.45;
     transform: scale(1);
   }
 }
