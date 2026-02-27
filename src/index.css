@@ -3,3 +3,58 @@
 @tailwind utilities;
 
 html, body { height: 100%; }
+
+@keyframes twinkle {
+  0% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.4);
+  }
+  100% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+}
+
+.twinkle {
+  animation: twinkle 3.2s ease-in-out infinite alternate;
+}
+
+.twinkle-slow {
+  animation: twinkle 5s ease-in-out infinite alternate;
+}
+
+.twinkle-d1 {
+  animation-delay: 0.6s;
+}
+
+.twinkle-d2 {
+  animation-delay: 1.2s;
+}
+
+.twinkle-d3 {
+  animation-delay: 1.8s;
+}
+
+.twinkle-d4 {
+  animation-delay: 2.4s;
+}
+
+.twinkle-d5 {
+  animation-delay: 3s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .twinkle,
+  .twinkle-slow,
+  .twinkle-d1,
+  .twinkle-d2,
+  .twinkle-d3,
+  .twinkle-d4,
+  .twinkle-d5 {
+    animation: none !important;
+  }
+}
