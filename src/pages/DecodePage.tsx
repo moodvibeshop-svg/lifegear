@@ -203,7 +203,7 @@ export default function DecodePage() {
   };
 
   return (
-    <div className="relative min-h-screen bg-black text-white overflow-hidden">
+    <div className="relative min-h-[100dvh] bg-black text-white overflow-hidden">
       {/* Space / nebula background */}
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(15,23,42,0.95)_0,transparent_65%)]"></div>
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(168,85,247,0.4)_0,transparent_65%),radial-gradient(circle_at_bottom_left,rgba(59,130,246,0.4)_0,transparent_55%),radial-gradient(circle_at_bottom_right,rgba(34,211,238,0.4)_0,transparent_55%)] opacity-60 mix-blend-screen"></div>

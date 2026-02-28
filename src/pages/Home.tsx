@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen bg-black text-white overflow-hidden flex items-center justify-center">
+    <div className="relative min-h-[100dvh] bg-black text-white overflow-hidden flex items-center justify-center">
       {/* Nebula glow overlays */}
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(15,23,42,0.95)_0,transparent_65%)]"></div>
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(168,85,247,0.6)_0,transparent_65%),radial-gradient(circle_at_bottom_left,rgba(59,130,246,0.6)_0,transparent_55%),radial-gradient(circle_at_bottom_right,rgba(34,211,238,0.6)_0,transparent_55%)] opacity-70 mix-blend-screen"></div>
