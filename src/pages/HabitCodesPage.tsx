@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function HabitCodesPage() {
   return (
-    <div className="min-h-screen bg-black text-white flex items-center justify-center px-6">
+    <div className="min-h-[100dvh] bg-black text-white flex items-center justify-center px-6">
       <div className="max-w-3xl w-full space-y-6 text-center">
         <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
           Habit Codes
