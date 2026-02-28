@@ -13,9 +13,9 @@ export default function App() {
       <Route path="/" element={<Home />} />
       <Route path="/app" element={<AppShell />} />
       <Route path="/app/decode" element={<DecodePage />} />
+      <Route path="/decode-the-hustle" element={<DecodePage />} />
       <Route path="/app/habits" element={<HabitCodesPage />} />
       <Route path="/app/command" element={<CommandLayerPage />} />
     </Routes>
   );
-}
-
+} 
