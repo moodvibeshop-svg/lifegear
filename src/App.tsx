@@ -16,6 +16,9 @@ export default function App() {
       <Route path="/decode-the-hustle" element={<DecodePage />} />
       <Route path="/app/habits" element={<HabitCodesPage />} />
       <Route path="/app/command" element={<CommandLayerPage />} />
+      <Route path="/habit-codes" element={<HabitCodesPage />} />
+      <Route path="/command-layer" element={<CommandLayerPage />} />
+      <Route path="*" element={<Home />} />
     </Routes>
   );
 } 
